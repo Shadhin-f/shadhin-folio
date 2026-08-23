@@ -29,44 +29,102 @@ body {
   line-height: 1.6;
 }
 
+.icon-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+  vertical-align: -0.2em;
+}
+
 .hero {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 3rem 1.25rem 1.5rem;
+  padding: 1.75rem 1.25rem 1.25rem;
   text-align: center;
 }
 
 .avatar {
   border-radius: 50%;
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.6rem;
 }
 
 .hero h1 {
-  margin: 0 0 0.25rem;
-  font-size: 1.5rem;
+  margin: 0 0 0.15rem;
+  font-size: 1.25rem;
 }
 
 .tagline {
   margin: 0 0 0.75rem;
   color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
 }
 
 .links a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
+  display: inline-flex;
+  color: var(--muted);
 }
 
 .links a:hover,
 .links a:focus-visible {
-  text-decoration: underline;
+  color: var(--accent);
 }
 
 main {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1.25rem 3rem;
+}
+
+main > section + section {
+  margin-top: 2.5rem;
+}
+
+.about p {
+  margin: 0;
+  color: var(--fg);
+}
+
+.contact p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+}
+
+.contact-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-list a:hover,
+.contact-list a:focus-visible {
+  text-decoration: underline;
 }
 
 .section-heading {
