@@ -1,0 +1,72 @@
+{
+  "FragZone.io": {
+    "displayName": "FragZone.io",
+    "description": "An in-browser \".io\"-style multiplayer shooter game (internally named \"ioShooter\"), built with vanilla JavaScript and HTML5 Canvas.",
+    "tools": ["JavaScript", "HTML5 Canvas", "CSS"],
+    "experience": "Real-time game loop and rendering fundamentals, input handling, and the performance considerations of building a fast-paced game without a game engine or framework.",
+    "tags": ["JavaScript", "Canvas", "Game dev"]
+  },
+  "NapTalk": {
+    "displayName": "NapTalk",
+    "description": "A peer-to-peer web app for direct browser-to-browser voice/data connections — no central media server — with QR-code pairing and installable PWA support.",
+    "tools": ["React 19", "TypeScript", "Vite", "WebRTC (PeerJS, simple-peer)", "GUN.js", "qrcode.react", "Vite PWA plugin"],
+    "experience": "Real-time peer-to-peer networking in the browser (WebRTC signaling and NAT traversal), decentralized state sync with GUN.js, and shipping a modern React + TypeScript + Vite app as an installable PWA.",
+    "tags": ["React", "WebRTC", "PWA"]
+  },
+  "portfolio": {
+    "displayName": "Portfolio",
+    "description": "An earlier iteration of a personal portfolio site, later superseded by this one.",
+    "tools": ["HTML", "CSS", "JavaScript"],
+    "experience": "First pass at self-presentation online — informed the more minimal, content-first approach used for shadhin-folio.",
+    "tags": ["HTML", "CSS"]
+  },
+  "Edge-powered-Skin-Disease-Classification-and-Anomaly-Detection-with-GAN": {
+    "displayName": "DERM-AI",
+    "description": "A semi-supervised, edge-computing dermatology assistant that turns a smartphone into an offline, privacy-preserving skin-condition classifier: 99% accuracy across four common conditions (Acne, Ringworm, Nail Fungus, Athlete's Foot), plus a GAN-based anomaly detector (75.7% F1) that flags rare/unknown cases for follow-up.",
+    "tools": ["Python", "TensorFlow", "MobileNetV2", "GANomaly", "NumPy", "Pandas", "Matplotlib", "Scikit-learn", "TensorFlow Lite (INT8 quantization)", "Flutter", "Dart", "Android Studio", "Firebase Auth"],
+    "experience": "Full ML-to-mobile pipeline — training and evaluating a CNN classifier and a GAN anomaly detector, then compressing the model 90% via INT8 quantization for fully offline, on-device inference in a cross-platform Flutter app with secure auth.",
+    "tags": ["TensorFlow", "Flutter", "Edge AI"]
+  },
+  "rds2-but-from-future": {
+    "displayName": "RDS2 — But From Future",
+    "description": "A large, actively maintained vanilla-JS web application, rebuilt and iterated on over more than a year.",
+    "tools": ["HTML", "JavaScript", "CSS"],
+    "experience": "Maintaining and scaling a large front-end codebase without a framework — DOM structure discipline, state handling by hand, and sustaining a single project across a long timeline.",
+    "tags": ["JavaScript", "Long-term project"]
+  },
+  "Machine-Learning": {
+    "displayName": "Machine Learning",
+    "description": "A structured self-study journey through machine learning: data preprocessing, regression, classification, clustering, association rule learning, reinforcement learning, NLP, deep learning, dimensionality reduction, and model selection/boosting — plus an applied skin-disease test notebook.",
+    "tools": ["Python", "Jupyter Notebook", "Pandas", "NumPy", "Scikit-learn", "Matplotlib"],
+    "experience": "End-to-end ML workflow experience across nearly every major model family, and how to evaluate/compare models rather than relying on a single algorithm — the direct foundation for the DERM-AI project.",
+    "tags": ["Python", "Scikit-learn"]
+  },
+  "DSA": {
+    "displayName": "DSA",
+    "description": "Data structures and algorithms practice — problem solving across arrays, trees, graphs, and sorting/searching techniques.",
+    "tools": ["C++"],
+    "experience": "Stronger algorithmic problem-solving and complexity analysis, and more fluency writing efficient, low-level C++.",
+    "tags": ["C++"]
+  },
+  "design-patterns": {
+    "displayName": "Design Patterns",
+    "description": "Standalone implementations of classic software engineering design patterns in C++.",
+    "tools": ["C++"],
+    "experience": "Deeper theoretical grounding in creational, structural, and behavioral patterns, independent of any single project — groundwork later applied directly in DourerUpor.",
+    "tags": ["C++"]
+  },
+  "DourerUpor-Tour-Package-Builder": {
+    "displayName": "DourerUpor — Tour Package Builder",
+    "description": "A team-built (CSE327) platform for exploring, building, and sharing travel packages, with login via email, Google OAuth, and GitHub OAuth, package lifecycle states (Pending/Approved/Rejected), and follower notifications.",
+    "tools": ["PHP", "MySQL", "Google OAuth", "GitHub OAuth", "Git (team collaboration)"],
+    "experience": "Applied eight GoF design patterns in a real codebase — Strategy (pluggable login), Singleton (single DB connection), Builder (incremental package construction), Observer (follower notifications), State (package lifecycle), Decorator (dynamic page composition), Proxy (lazy image loading), and Iterator (review traversal) — plus coordinating a 4-person team on a shared repo.",
+    "tags": ["PHP", "OAuth", "Team project"]
+  },
+  "Melodise": {
+    "displayName": "Melodise",
+    "description": "A PHP-based music streaming platform management system covering catalog, playback, and user-facing management features.",
+    "tools": ["PHP", "MySQL", "CSS"],
+    "experience": "First large PHP backend project — server-side rendering, structuring a multi-page app, and basic database-driven CRUD flows.",
+    "tags": ["PHP", "MySQL"]
+  }
+}
