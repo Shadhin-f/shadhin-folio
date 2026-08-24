@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-08-23T14:08:38.404Z",
+  "generatedAt": "2026-08-24T00:56:37.138Z",
   "projects": [
+    {
+      "name": "shadhin-folio",
+      "displayName": "shadhin-folio",
+      "url": "https://github.com/Shadhin-f/shadhin-folio",
+      "date": "2026-08",
+      "description": "No description provided.",
+      "tools": [
+        "HTML"
+      ],
+      "experience": null,
+      "tags": [
+        "HTML"
+      ],
+      "createdAt": "2026-08-23T14:16:58Z"
+    },
     {
       "name": "FragZone.io",
       "displayName": "FragZone.io",
