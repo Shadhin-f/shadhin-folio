@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-08-24T00:56:37.138Z",
+  "generatedAt": "2026-08-31T03:00:45.668Z",
   "projects": [
+    {
+      "name": "what-if-cgpa-planner",
+      "displayName": "what-if-cgpa-planner",
+      "url": "https://github.com/Shadhin-f/what-if-cgpa-planner",
+      "date": "2026-08",
+      "description": "Chrome extension that overlays NSU's RDS grade history page with a CGPA analysis, what-if editing, and semester planning tool.",
+      "tools": [
+        "JavaScript"
+      ],
+      "experience": null,
+      "tags": [
+        "JavaScript"
+      ],
+      "createdAt": "2026-08-29T15:07:55Z"
+    },
     {
       "name": "shadhin-folio",
       "displayName": "shadhin-folio",
